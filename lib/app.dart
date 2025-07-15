@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fluttertestproject/componentlist.dart';
+import 'package:fluttertestproject/flutterform.dart';
 
 class MyApp extends StatelessWidget{
   MyApp({super.key});
@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ComponentList()
+      home: FlutterForm()
     );
   }
 }
